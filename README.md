@@ -7,8 +7,13 @@ Also not the original maker of these, just posting a mirror out there.
 
 Supported clevo models
 
+
 N9xKP
+
 P7xxDMx
+
 P7xxTM1
+
 P870KM
+
 P870TM
