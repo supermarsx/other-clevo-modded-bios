@@ -1,6 +1,6 @@
 # other-clevo-modded-bios
 
-Clevo modded/unlocked BIOS mirror collection by dsanke
+Clevo BIOS fully unlocked/modded collection by dsanke
 
 - ✅ Use up to 9900KS processor.
 - ✅ BIOS fully unlocked.
@@ -15,7 +15,8 @@ Clevo modded/unlocked BIOS mirror collection by dsanke
   - [[Reference Link]](https://www.techpowerup.com/forums/threads/adventure-running-8-9th-gen-coffee-lake-cpus-on-z170-motherboard-asus-maximus-viii-ranger.284375/) / [[Archive.ph mirror link]](https://archive.ph/MCi5O)
 - ⚠️ You might be able to upgrade from GTX 10 series to RTX 20 series based on this thread.
   - [[Reference Link]](https://linustechtips.com/topic/1610000-chipped-corner-on-mobile-rtx-2080-mxm/), citing `Danmaq`, "i installed a Dsanke bios mod and now the GPU seems to work. it managed to get into windows but i still have to do more testing until i get the proper cooler." / [[Archive.ph mirror link]](https://archive.ph/xVQMj)
-- 🤓 You **SHOULD read** the whole readme and some threads before proceeding with anything.
+- ⚠️ You **SHOULD read** the whole readme and some threads before proceeding with anything.
+- ⚠️ A lot of files were copied and dirty translated from Chinese to English, translations won't be great.
 - 🪞 Not the maker, just a mirror.
 
 [[Download this repository]](https://codeload.github.com/supermarsx/other-clevo-modded-bios/zip/refs/heads/main) (This option downloads everything)
@@ -27,12 +28,36 @@ Clevo modded/unlocked BIOS mirror collection by dsanke
 
 ## Supported Clevo models
 
-- N9xKP [[0506]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/N9xKP-0506.7z) [[0712]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/N9xKP-0712.7z)
-- N9xTP [[0506]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/N9xTP-0506.7z) [[0712]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/N9xTP-0712.7z) 
-- P7xxDMx [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P7xxDMx-0511-9900KS.7z) [[0729-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P7xxDMx-0729-9900KS.7z) [[0729-TBT-Legacy]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P7xxDMx-0729-TBT-Legacy.7z) 
-- P7xxTM1 [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P7xxTM1-0511-9900KS.7z) [[0729-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P7xxTM1-0729-9900KS.7z)
-- P870KM [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P870KM-0511-9900KS.7z) [[0716-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P870KM-0716-9900KS.7z)
-- P870TM [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P870TM-0511-9900KS.7z) [[0716-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P870TM-0716-9900KS.7z)
+### BIOS
+
+- N9xKP [[0506]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/N9xKP-0506.7z) [[0712]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/N9xKP-0712.7z)
+- N9xKP (128G) [[0506-128G]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/N9xKP-0506-128G.7z) [[0712-128G]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/N9xKP-0712-128G.7z)
+- N9xTP [[0506]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/N9xTP-0506.7z) [[0712]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/N9xTP-0712.7z)
+- P7xxDMx [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P7xxDMx-0511-9900KS.7z) [[0729-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P7xxDMx-0729-9900KS.7z) [[0729-TBT-Legacy]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P7xxDMx-0729-TBT-Legacy.7z)
+- P7xxDMx (128G) [[0511-9900KS-128G]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P7xxDMx-0511-9900KS-128G.7z) [[0729-9900KS-128G]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P7xxDMx-0729-9900KS-128G.7z)
+- P7xxTM1 [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P7xxTM1-0511-9900KS.7z) [[0729-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P7xxTM1-0729-9900KS.7z)
+- P870KM [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P870KM-0511-9900KS.7z) [[0716-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P870KM-0716-9900KS.7z)
+- P870KM (128G) [[0511-9900KS-128G]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P870KM-0511-9900KS-128G.7z) [[0716-9900KS-128G]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P870KM-0716-9900KS-128G.7z)
+- P870TM [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P870TM-0511-9900KS.7z) [[0716-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P870TM-0716-9900KS.7z)
+
+### BIOS (with-pci-error-fix-with-128g)
+
+- P7xxDMx (128G) [[0511-9900KS-128G]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/pci-error-fix-with-128g/P7xxDMx-0511-9900KS-128G.7z) [[0729-9900KS-128G]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/pci-error-fix-with-128g/P7xxDMx-0729-9900KS-128G.7z)
+- P870KM (128G) [[0511-9900KS-128G]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/pci-error-fix-with-128g/P870KM-0511-9900KS-128G.7z) [[0716-9900KS-128G]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/pci-error-fix-with-128g/P870KM-0716-9900KS-128G.7z)
+
+### Service Manuals
+
+- P75XDM [[service-manual-p75xdm]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/service-manual/service-manual-p75xdm.pdf)
+- P775DM2-G [[service-manual-p775dm2g]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/service-manual/service-manual-p775dm2g.pdf)
+- P775TM [[service-manual-p775tm]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/service-manual/service-manual-p775tm.pdf)
+- P870KM [[service-manual-p870km]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/service-manual/service-manual-p870km.pdf)
+
+## vBIOS
+
+Includes vBIOS for GTX 1060, 1070 and 1080, with and without G-SYNC, with and without SLI, with and without OC
+
+- vBIOS release notes [[View Release Notes Spreadsheet]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/flashing-tools-and-tutorials/clevo-gtx-10-series-mxm-vbios-collection/vbios-release-notes.xlsx)
+- vBIOS folder [[View Folder]](https://github.com/supermarsx/other-clevo-modded-bios/tree/main/flashing-tools-and-tutorials/clevo-gtx-10-series-mxm-vbios-collection/1-vbiosfile)
 
 ## Things you might want to read before proceeding
 
