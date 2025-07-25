@@ -29,6 +29,29 @@ Clevo modded/unlocked BIOS mirror collection by dsanke
 - P870KM [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P870KM-0511-9900KS.7z) [[0716-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P870KM-0716-9900KS.7z)
 - P870TM [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P870TM-0511-9900KS.7z) [[0716-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P870TM-0716-9900KS.7z)
 
+## Things you might want to read before proceeding
+
+Thread on notebooktalk about flashing
+
+[https://notebooktalk.net/topic/2302-help-w-flashing-dsanke-bios-for-p775-dm3/](https://notebooktalk.net/topic/2302-help-w-flashing-dsanke-bios-for-p775-dm3/)
+
+Thread citation, taiyang wrote: 
+
+> Posted August 15, 2024
+> Well. That 0729 BIOS from Dsanke was migrated from TM machine with Z370. To flash it using fpt in OS on a DM machine with Z170, you need to
+>
+> 1. flash without your battery using only the power cord, and
+> 2. unplug the power cord after the flashing. DO NOT restart with power.
+> 3. connect the battery and power cord back and boot the machine.
+>
+> According to Dsanke, this is an issue with different BIOS structures. In Z170, it is "3MB Flash Descriptor + ME Region" and "5MB BIOS Region", while in Z370, it is "2MB Flash Descriptor + ME Region" and "6MB BIOS Region". If the system reboots or turns off with power, the NVRAM part in the BIOS will be messed up. Dsanke has a very detailed "readme" in Chinese about how to flash this BIOS, which the repository on GitHub doesn't have. For reference,
+>
+> http://www.smxdiy.com/thread-3097-1-1.html
+>
+> I confirmed this last week (in a hard way). Flash it with a ch341a programmer, or flash it in OS and then cut the power.😉
+
+Google translated original post: [smx-dsanke-guide-gt.md](https://github.com/supermarsx/other-clevo-modded-bios/blob/main/smx-dsanke-guide-gt.md)
+
 ## Flash guide using Raspberry Pi and clip
 
 ```Note: This is a rectified generated guide for reference```
