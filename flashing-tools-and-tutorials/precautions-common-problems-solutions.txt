@@ -1,0 +1,368 @@
+This article does not apply to downright unwillingness to do hands unwilling to learn the white, if you really can't get it, it is recommended to give up, after all, is not a no-threshold, the ability to read this point do not have, advise you not to touch the quasi-system.
+If it is H310/B360/H370/Z390 or C***/CM***/HM*** (* on behalf of the number), please directly close this document and delete the downloaded file 
+The BIOS I have here does not apply to your machine!
+
+Q：Why do I need to brush the BIOS? 
+A：To realize some functions that cannot be realized by the official original BIOS, such as modifying some options that cannot be modified originally, supporting some CPUs that cannot be supported originally, etc.
+If you do not have a clear goal, it is not recommended to brush the BIOS, just use it normally.
+After brushing the BIOS, the settings inside the BIOS will be reset. If you don't even know how to adjust the startup items inside the BIOS, I advise you not to brush it! If you don't even know how to adjust the boot items in the BIOS, we advise you not to do it!
+
+Q: What is an option in the BIOS for?
+A: When you don't know what it does, if you are interested, you can search for it on the internet.
+If you're not interested, just leave it as it is and don't change it.
+
+Q：How can I tell which BIOS to brush on my machine? 
+A：First of all, make sure the CPU is LGA1151 slot (don't know what I'm talking about, then you don't need to look back, just close this page), after the 6th generation, then what i5 4210M don't ask if you can change i3 8100.
+NK******** on the code on the back cover is the name of your mold.
+If you really don't know what mold it is, look at the graphics card and the chipset (use CPU-Z in the “motherboard” field) to differentiate:
+
+GTX 950M / 960M + H170 = W650DC / W650DD = W650DC,DD 
+GTX 1050 / 1050Ti + H170 = W650KJ / W650KK = W65xKK1_KJ1 
+MX150 + H110 = W650KL = W65xKL 
+On board GTX 1060 + H270 = N950KP6 / N957KP6 / N95xKP6 / N95xKP / N95_KP6 
+Onboard GTX 1060 + Z370 = N950TP6 / N960TP6 / N957TP6 / N95xTP6 / N95xTP / N9xTP 
+No discrete graphics + H170 = N650DU 
+The x in the BIOS filename is an indeterminate character. The x in the file name is an unknown character, and the brackets will indicate which numbers or letters it may be, they are all compressed files, so please unzip them all.
+BIOS does not differentiate between with or without G-Sync, whether your machine has G-Sync or not, the BIOS is universal, (-G) means optional.
+
+Q：I see your BIOS is updated, I've flashed it before, should I do it again now?
+A: If you don't encounter any problems in using the BIOS, you don't need to brush it again, but if you have a compulsion to update the BIOS, you should brush it at your own risk.
+If you want to change to a new CPU and you are not sure if the current BIOS supports it, it is recommended that you brush the latest one.
+
+Q: Will I brush black? I'm afraid!
+A: If you are afraid, don't brush it, add money to buy a new machine!
+
+Q: This BIOS I am using now supports XX processors?
+A: It is not possible to determine what CPU is supported by the BIOS through the version number, screenshots, 
+only through the complete BIOS backup to speculate what CPU may be supported. The best way is to verify whether it is supported on the machine.
+The best way is to verify the support on your computer. I do not provide this service in this post. The best way is to verify the support on the computer.
+
+Q: Does it still support the CPU I'm using now? 
+A: It is written in the instructions what CPUs are supported by the BIOS.
+
+Q：Why is it that after I flashed the BIOS and changed the boot logo and version, but after I changed the CPU, the boot light turns on for a while and then goes off/the fan turns on for a while and then stops, and I still can't boot the computer?
+A：Because you didn't follow the instructions I wrote to brush the Flash Descriptor and ME Region correctly. 
+Please download my BIOS and the brushing tool I provided again, read carefully and follow the instructions.
+
+Q：After flashing the BIOS, what should I do if I turn on the computer with a black screen and no response?
+A：If it is like this after flashing the BIOS without changing the CPU, it may be that the BIOS of other models has been flashed by mistake, and you need to use the programmer to flash it back.
+After flashing the BIOS or replacing the CPU in some machines, the memory will not pass the boot self-test, the specific symptom is that the keyboard does not respond after booting, and the fan is at a low speed.
+At this time, please unplug all the RAM, insert only one, and try different slots several times, usually can boot normally.
+
+Q：After changing the CPU, what should I do if I turn on the computer with a black screen and no response?
+A: Maybe the pins are broken, check if there is any dirt and bent pins, and the motherboard various connecting wires are inserted properly.
+
+Q：Why can't I find the hard disk after flashing BIOS?
+A: Because you brush the wrong model, please go to the hospital to see the ophthalmologist.
+
+Q: Are there any bugs (including but not limited to network card, sound, USB, touchpad, etc.)?
+A: If it doesn't say there is one, it means there isn't one, don't add drama to yourself.
+
+Q: Does the brush support the Overton?
+A：Austen itself is a NVME SSD, it can be used without considering the acceleration function.
+The RST acceleration function has nothing to do with the BIOS, it is still supported after brushing, and it is not supported after brushing.
+It is not supported after changing the original unsupported CPU, because the manufacturer didn't ask Intel to get the license for the new CPU.
+If you have to use the SSD caching function, you can consider using other caching software to accelerate.
+
+Q: How do I change the English prompts when I turn on my computer? It's ugly.
+A: Search for related tutorials on your own, we won't answer here. Don't brush it if you don't like it.
+
+Q: Is there a BIOS for XX models, does it support XX models, and is there a tutorial?
+A：Because of the many various types of labeled models, I can not know what mold your model corresponds to, please observe for yourself what mold you are.
+Supported models/known bugs have been clearly written in the document on the disk, do not rush to ask, read the instructions first.
+I'll give you a description of how the molds correspond to the graphics card in the documentation. The tutorials are on the disk.
+Provide tutorials to brush into the BIOS, does not provide how to use the search engine and its dismantling and replacement of the CPU to solve a variety of problems in the tutorials, if you have poor reading comprehension skills, please leave this post.
+If you have poor reading comprehension skills, please leave this post. Poor hands-on skills can be saved, poor reading skills are incorrigible.
+
+Q: How do I brush it? Do I need a programmer? Do I need to flash EC, VBIOS, CPU short? Do I need to flash VBIOS, do I need to short CPU? Does it need to be shielded? Will it burn? What are the consequences?
+A: I will write the following separately, no need to ask questions now.
+
+Q: Can I modify this BIOS? How do I flush it in after modification? Do I need to sign it?
+A: There is no restriction on modification of BIOS, you can modify it as you like, and you can flash it as you like before modifying it, and then flash it as you like after modifying it, there is no signature verification for FPT flashing.
+If the modification method is not appropriate, it will cause the problem of not being able to boot, so if you want to learn to modify the BIOS, it is best to buy a programmer backup.
+
+Q: Can the heat dissipation be pressed after changing the XX processor?
+A: According to the nominal TDP of the processor to set the power consumption limit can be suppressed, after unlocking the power consumption with your machine specific cooling has a relationship, you can refer to the experience of others, I can not answer.
+
+Q: Is there a group number? I'm a white guy, I've never brushed, so I'm scared!
+A: There is no group number. I do not welcome no hands-on ability and refused to search and watch tutorials only blindly ask the white. If you are afraid, close this post.
+
+Q: Is there any XX desktop motherboard support XX processor BIOS? 
+A: change the BIOS tutorials are open to the public, their lazy Taobao find to go, I do not have.
+
+Q: What if I can't find the BIOS file with the programmer?
+A: Brush into the file extension is not important, as long as it is a complete BIOS on the line (8M or 16M), the programmer detects the model code if it is FF or 00 that is not plugged in or not clamped or clamped the opposite, the specific model look at the silkscreen, the front of the match are universal, the last few bits do not matter!
+
+Q：I bought/downloaded the BIOS from XX place with XX problem, is this fixed?
+A：Don't ask me if you brushed a half-baked product from nowhere, just ask whoever gave it to you. Any bugs and precautions will be clearly explained when I give the BIOS.
+
+Q: Does this BIOS support 128G RAM? Can it support it?
+A: Please read the instructions carefully.
+
+Q: Why does my CPU frequency not run enough? Why is my CPU frequency always high? Why does my CPU frequency and voltage jump back and forth?
+A: Because the processor is equipped with EIST technology, the CPU frequency will be automatically lowered when the processor is idle in order to save energy, EIST is called “Enhanced Intel SpeedStep Technology”, which can automatically adjust the processor's voltage and frequency according to different system workloads, in order to reduce power consumption and power generation. EIST is called “Enhanced Intel SpeedStep Technology”, which automatically adjusts the processor voltage and frequency according to the system workload to reduce power consumption and heat.
+This EIST technology, along with C-State, is turned on by default, which means that your CPU's frequency and voltage are automatically adjusted according to the load.
+Software such as LU Master can add so-called “High Performance” or “Performance Optimized” power management options, resulting in the RWD not going up, or the frequency always being at maximum. (Solution: After uninstalling those software, the administrator will run “powercfg -restoredefaultschemes” on the command line. 
+After replacing the CPU, you need to remove the CMOS battery and reinstall it after 1 minute to reset the BIOS settings. Some settings may treat your CPU as an old one, which may cause the frequency to go down.
+In some cases, the C-State is turned off artificially, which can also cause your CPU's RPM not to go up, or the frequency is never high or low, so please reset the BIOS options back to the default values.
+Confirm the power limit set in BIOS, use ThrottleStop to see the Limit Reason, and find out the reason for downclocking by yourself, don't ask questions like a giant baby.
+If you can't solve the problem, please refresh the previous backup, I don't have a solution for this kind of problem.
+
+Q: Can I run all cores of my CPU at maximum RPM?
+A: Due to the limitations set by Intel to differentiate the performance of CPUs, the maximum RPM of a CPU is only the RPM of a single core, not the RPM of all cores under load at the same time.
+Since Windows 10 is better optimized for multi-core, in most cases it will not be able to run at the maximum RPM (because the load is distributed to different cores).
+If you have a CPU with K, then it supports overclocking, and with the Z-series PCH, it is possible to drive all cores higher (not just single-core, but higher, depending on your motherboard's power supply, your CPU's heat dissipation, and your CPU's own physical condition).
+Generally, desktop motherboards offer an option called Multe Core Enhancement, which automatically overclocks the full core to the same level as the single core. This option is not available for non-K CPUs after the 5th generation.
+In the 4th generation, due to microcode bugs, non-Z PCHs could adjust the multiplier of K CPUs, and could also pull the full-core RPM of non-K CPUs to the same level as single-core RPM.
+However, these bugs don't exist on current machines, so don't ask me how to lock frequency, I can only answer you, it's impossible! So don't ask me how to lock the frequency, I can only answer you, it's impossible! Then you ask why, I also can't answer you, please ask Intel!
+
+Q: Why can't the BIOS setup CPU buck take effect?
+A: Uninstall the XTU and CC software that regulates the voltage in the system, and adjust the Offset of Core/IA/Processor and Ring/Cache/Uncore (different names in different BIOS) in the BIOS at the same time.
+
+Q: How to adjust XX (including but not limited to startup items/overclocking/power consumption limits, etc.) after brushing the BIOS?
+A: What you adjusted before flashing, you can still adjust after flashing, the options will not change, they are all the same!
+
+Q: Does it support 9th generation? Does it support 10th gen rotary pin processors?
+A: Please read the instructions carefully for the specific CPUs supported.
+
+Q: Can I unlock the graphics card power consumption by brushing BIOS or EC?
+A: No. Graphics card power consumption has nothing to do with BIOS and EC. If you have this need, please search by yourself and don't ask me, I don't know this.
+
+Q: What should I do if I turn on my computer after flashing the BIOS and there is a blue alert box? What does it mean?
+A: Normal phenomenon, see the “CMOS Message” blue box when you press the Enter key 3 times (comes with a keyboard, external USB keyboard may not work) to continue to boot.
+Don't ask what it means in such simple English.
+
+Q: Do I need to shield and short my CPU?
+A: No shielding and shorting is required for any CPU on Z370.
+For 100/200 series quasi-systems none need to be shorted, but depending on the CPU you need to shield 2 points to keep safe.
+Gen 6/7 CPUs never need to be shielded, and Gen 8/9 B0 stepped CPUs don't need to be shielded, all other stepping need to be shielded.
+If you can tell for sure that the Gen 8/9 CPU you are going to use is a B0 stepper, then you can leave the 2 points unshielded.
+If you can't tell exactly what stepping your CPU is, then to be on the safe side, it's recommended to shield 2 points for both 8th/9th generation U.
+You can check the official CPU stepping in Intel ARK at https://ark.intel.com/content/www/us/en/ark.html 
+See the gif for details, and note that the “-” in the CPU model number cannot be omitted in the search.
+
+Q: What is the use of shielding and shorting? Why?
+A：Since the 8/9 generation CPU pins are scheduled to change compared to the 6/7 generation, it will cause some CPUs to burn off 2 pins when uploading, the shielding is just to avoid the warranty problem caused by the fused pins.
+For quasi-systems, only burned pins, there will be no other problems, and the lack of these 2 pins for normal use (including 6/7/8/9 generation) without any impact.
+There is no difference between shielding 2 points and shielding more points (including but not limited to 3 points/5 points anti-L/7 points/11 points/19 points/24 points/25 points, etc.), and those other points are undefined.
+However, don't take it for granted and post it yourself, just because the shielding posting covers a point that has no effect doesn't mean that other nearby points have no effect. Failure to stick it properly will result in serious problems such as failure to light up/single channel/not recognizing solo displays.
+Shorting the definition of the 2-pin one is SKTOCC one is GND, in Intel's design specifications for normal power-up needs SKTOCC is low, so with GND shorting.
+As a result of the detection foot, only a very small current through, there is no danger, single-conductor double-conductor also does not matter. For quasi-systems for the motherboard are not set up for this test, so they do not have to be shorted.
+
+Q：How to shield? What shielding?
+A: Taobao search for gold finger tape, there are 1.xx yuan shipping.
+With a hobby knife to cut into contact-sized pieces, pasted to the CPU contacts.
+Or use UV green oil, or cut the pin, no more.
+
+Q：What should I do if the CPU is stuck in the boot Logo after changing?
+A：Please pull out the CMOS battery, wait for 1 minute and then put it back on for boot up. If it still can't boot up, please check if the CPU base pin is damaged.
+
+Q: Flush BIOS or change CPU first? 
+A: Flush BIOS first.
+
+Q: How long do I have to wait for the first boot after flashing the BIOS and changing the CPU?
+A: It varies from person to person, we suggest you wait at least 1 minute.
+
+Q：Why does my graphics card become PCIEx8 after flashing the BIOS?
+A: BIOS can not modify this part, what was before you brush, brush is what, do not like to brush back to the original.
+
+Q：After flashing this BIOS, can I still flash other BIOSes in the future? Does DM2 become TM after I flashed this BIOS?
+A: No, after flashing this BIOS and getting a new CPU, you can only use this BIOS, of course, if you know what you are doing, then forget what I said.
+Of course, if you know what you are doing, then forget what I said. After flashing DM2, it is still DM2, and you still can't directly flash the BIOS of TM.
+
+Q: Can I overclock with this BIOS? Can I turn on XMP?
+A: Yes, before I flashed it, and yes, after I flashed it. Flashing the BIOS has no effect on the overclocking function. Due to the unlocked options, the overclocking menu is now open for non-K CPUs for you to adjust the memory parameters.
+But some non-Z molds don't have an overclocking menu in the BIOS, such as the W65 and N65 series, which I can't do anything about.
+If you're talking about graphics cards, I've preclocked my GTX950M/GTX960M cards for the W650DC/DD molds.
+If you think the frequency is low, you can adjust it yourself, don't bother me with this, I'm tired. I preset the parameters to adapt to most of the body of the machine depends on. Combined consideration of stability and performance testing for a long time.
+
+Q: I heard that the new 8100 changed to U0 stepping and also requires shielded pins, is that true?
+A: As of now (April 2019) all official versions are B0 stepping. No shielding is required.
+
+Q: Can the tool you posted brush the BIOS of other motherboards?
+A: No. The tool I posted is only for those models I adapted.
+
+Q: I changed the CPU, but in the system, the number of cores recognized by Task Manager/LuGuard etc. is less than the actual number of cores (e.g. 6 cores only shows 2-4 cores, etc.) 
+A: Press Win+R to open Run, type msconfig and enter, switch to the boot tab, click Advanced Options, remove the checkboxes before Processor Number and Maximum Memory. OK and reboot.
+If it still doesn't work, please consider the hardware problem.
+
+Q: I flashed the BIOS/changed the CPU, the memory shown in the system is very different from the actual memory (e.g. 16G installed, 8G available) 
+A: Follow the previous article. If it still doesn't work, please consider the hardware problem.
+
+Q: What is EC? Do I need to flash it?
+A: EC is similar to BIOS, it stands for Embedded Controller. 
+is one of the more advanced power management chips in the machine, controlling a number of functions including fan speed and CPU frequency.
+Under normal circumstances (i.e. if you don't know what EC is, then it must be normal), EC never needs to be updated.
+
+Q: How long do I have to wait for the first boot after flashing the BIOS and changing the CPU?
+A: It varies from person to person, we suggest you wait at least 1 minute.
+
+Q: What should I do if I can't turn on the computer after reboot?
+A：Long press the power button to force power off and try to reboot.
+
+Q: Is my BIOS flashing successful?
+A: If you see FPT Operation Successful after executing the command, it must be successful.
+
+Q: How to enter BIOS? 
+A: After shutting down the computer, press and hold F2, and then press the power button until you successfully enter the BIOS. 
+If you can't enter the BIOS interface in this way, please enter the system first.
+In UEFI-booted Windows 8/10, press and hold the Shift key, and then click Reboot in the Start menu, 
+to bring up the Advanced Reboot menu, and select Troubleshooting-Advanced Boot-Advanced Options-UEFI Firmware Settings to reboot directly to the UEFI firmware. If you want to reboot your system, you can go to 
+to reboot directly to UEFI, i.e. BIOS setup.
+
+Q: My system is broken, can I still enter BIOS?
+A: When the system is not bootable, you can definitely enter BIOS.
+
+Q：What should I do if the prompt “Reboot and Select proper Boot device” appears when I turn on the computer?
+A: In the Boot menu of BIOS, find UEFI Setting, enable or disable UEFI Boot, and press F4 to save.
+You can also change the order of the hard disk in Hard Disk BBS. If you can't do it, please seek help from the gods around you.
+
+Q: Why does my computer start up with a beep?
+A: This is a normal phenomenon and can be turned off in BIOS.
+Specific location: BIOS main interface, press “→” to switch to the ‘Advanced’ menu, find “Power On Boot Beep”, 
+Enter! Modify it to “Disabled” to turn off the boot beep.
+Similarly, find “Battery Low Alarm Beep”, that is, turn off the low battery beep (Windows system needs to be turned off separately).
+
+Q: Why does my system PIN not work anymore?
+A: The hardware has changed, normal phenomenon, reconfiguration can be.
+
+Q: Why does my Solo Display not work? Why is there no sound?
+A: The hardware has been changed, please enter the “Device Manager” (please enter the method of Baidu) 
+to check whether there are exclamation marks and question marks, and reinstall the corresponding driver.
+For models with core graphics: If you can't see the core graphics card in the display adapter column, it is recommended to reinstall the system.
+For models with core graphics: you must install the core graphics driver before installing the discrete graphics driver!
+
+Q: Can I overclock memory/CPU?
+A: Yes, before flashing the BIOS, and yes, after flashing the BIOS. If you can't before flashing the BIOS, you can't after flashing the BIOS.
+
+Q: Why does my CPU VT-X function not work?
+A: System bug, not related to BIOS. Try to run bcdedit /set hypervisorlaunchtype off in administrator command line and reboot to check if it is normal again.
+
+Q：Why is my CPU frequency only 2.0GHz and why can't I run my CPU at maximum RPM?
+A: Have you plugged in the power? Make sure the power is plugged in, but the frequency is still incorrect. 
+Please turn off the computer completely, disconnect the power, dismantle the computer and take off the CMOS battery, wait for 1 minute and then install the CMOS battery, then plug in the power and turn on the computer to try.
+
+Q: Can I continue to use Win7?
+A: Not for core models, but not for solo models.
+The core graphics card of 8th generation Core i series processor does not support Windows 7 system, please use Windows 10. otherwise, you can't have normal video and audio entertainment.
+
+Q: Why can't I install my core graphics driver?
+A: It may be that the system version is lower than Windows 10 1607. The core graphics of the 8th generation Core i-series processors do not support Windows 7. 
+At least change Windows 10.
+
+Q: Why doesn't my Sound Blaster series sound software work?
+A: Uninstall and reinstall. If you have flashed the ported BIOS, you need to install the sound card driver of the corresponding model.
+For example, P7xxDM23 needs to install P7xxTM driver.
+
+Q：Why does my headphone jack not work well? Why can't I adjust the volume?
+A: If you have flashed the ported BIOS, you need to install the sound card driver of the corresponding model.
+For example, P7xxDM23 needs to install P7xxTM driver.
+
+Q：Why does the Fn hotkey not work?
+A: Try rebooting. Or reinstall Blue Sky's Control Center (Hotkey) software 
+If it doesn't work, try step 4 again.
+
+Q：Why can't I adjust the brightness?
+A: Reinstall the core display driver.
+
+Q：Why can't I adjust the brightness with Fn shortcut?
+A: Reinstall the core display driver.
+
+Q: Do I need to reinstall my system?
+A: The 8th generation i3 processor is well compatible with Windows 10 1703 and above, below which reinstallation and upgrade is recommended.
+Reinstalling the system can solve most of the metaphysical problems, and it is recommended to reinstall it even if you don't find no problems for the time being.
+
+Q：Why can't I boot the computer after flashing the BIOS?
+A：Check the boot settings, UEFI switch and hard disk boot items in BIOS. There are many reasons for this problem, but it has nothing to do with flashing the BIOS.
+It is normal that flashing BIOS will reset the settings.
+
+Q: What should I do if I can't remove the CPU/Graphics card's heat sink module?
+A: If you can't remove the CPU heatpipe, you can consider turning on the switch on the CPU base and try again. Or you can play a few games first and wait for the silicone grease inside to heat up and melt before removing it.
+
+Q: Why can't my USB flash drive boot up?
+A: Close UEFI Boot and try it.
+
+Remarks about the model number 
+The models without 1 and -G at the end of the model number are just different configurations, the BIOS is common, for example, P775DM and P775DM1 are common, and P775TM1-G is common with P775TM1 
+P7xx includes P750/P751/P770/P771/P775 
+N9xTP6 includes N950TP6/N957TP6/ N960TP6 
+N95xKP6 including N950KP6 & N957KP6
+
+Remarks about BIOS version 
+The version number is set by Blue Sky, not given by me personally, but what Blue Sky has updated, I don't know, so if you ask me what's the difference, I don't know 
+The following can only tell you some, I know the difference, what I didn't write, I just don't know, if you ask, I can't answer you 
+Difference between P7xx 1.05.xx and 1.07.xx: 1.05.xx Audio driver is not UAD, graphics driver is not DCH, install RTX graphics card need to modify INF to install driver 
+Difference between P870 1.05.xx and 1.07.xx: 1.05.xx audio driver is not UAD, graphics driver is not DCH, install RTX graphics card need to modify INF to install driver 
+1.07.xx version can still support 10-series cards, and the P75x installs the GTX1080 no longer need to modify INF 
+P870 version 1.07.xx only supports RTX 2080 G-Sync version without changing INF to install the driver, the compatibility of other RTX cards is unknown.
+
+Regarding the impact of audio UAD drivers 
+Volume can't be adjusted when the driver is not installed properly, this is not a BIOS problem 
+We recommend using Windows 10 auto update to update the sound card driver 
+I haven't tested much, so feel your way around it, I don't provide the driver because I don't know which one works 
+There is also the Creative Sound software, I don't know which version works, so feel your way around it and try it out, don't ask me!
+I personally hate UAD drivers, and I don't recommend the BIOS version with UAD drivers.
+
+About CPU microcode and BIOS supported CPUs 
+All BIOS here support 8th/9th generation official version and ES, including all B0/U0/P0/R0 stepping (here stepping is the “revision” shown in CPU-Z, but not necessarily supported by the official BIOS of the same version) 
+8th/9th generation B0/U0/P0/R0 corresponds to CPU-Z's display. R0 corresponds to the stepping displayed in CPU-Z as A/B/C/D 
+Special version for 100/200 series and Z370, additional support for Gen 6/7 official version and Gen 7 ES, including R0/A0/B0 stepping (here the stepping is the “Revision” displayed in CPU-Z) 
+R0/A0/B0 corresponds to the R0/A0/B0 stepping displayed in Gen 6/7 CPU-Z shows the step 3/8/9 
+ES version of the rotary pin 10 generation CPU and 9 generation official version of the CPU the same step, are R0, support for the 9 generation R0 support 10 generation BGA1440 ES 0000, but 10 generation rotary pin of the official version does not support!
+
+No core display CPU can not be used 
+W65 and N65 mold can not be used, because only the core display has the function of display output 
+N9x mold in the case of abandonment of the internal screen can be used, because 1 of the two miniDP, as well as HDMI are connected to the GTX1060 
+can be a solo output to the external screen, or add a driver board to output back to the internal screen, the specific operation of the specific operation I do not understand, do not ask me, I only I know someone has succeeded 
+Other P-series with the above mentioned MSI/MSI molds can be used
+
+Can I still install Win7 
+The installation of the system has nothing to do with the BIOS, only the lack of core graphics drivers for Win7.
+
+No core display CPU can not be used 
+W65 and N65 molds can not be used, because only the core display has the function of display output 
+N9x molds can be used when giving up the internal screen, because 1 of the two miniDPs, as well as HDMI are connected to the GTX1060 
+can be a solo display output to the external screen, or add a driver board to output back to the internal screen, the specific operation of the specific operation I do not understand, do not ask me, I only I know someone has succeeded 
+Other P-series with the above mentioned MSI/MSI molds can be used
+
+Can I still install Win7 system 
+installing the system has nothing to do with BIOS, just Win7 lack of core display driver 
+can be displayed normally, but video decoding, games and other functions will be limited 
+basically in the state of not being able to daily use, unless you only run the CPU application 
+molds without nuclear graphics can be installed normally Win7, there will be no problems
+
+CC2.0 
+requires BIOS and EC to work properly 
+I haven't researched this, and there are many bugs, so I don't recommend using it.
+
+About Fn+D 
+Some users reported that this function is not available in P870TM 1.07.xx and N9xTP6 1.07.xx versions, which is a bug, and there is no update to fix it, so I don't recommend these versions of BIOS.
+
+Regarding the driver installation after brushing the BIOS 
+ported BIOS driver to install the ported model, pay attention to the driver should also correspond to the BIOS version, especially the sound-related, those sound software to pick the version, I do not understand, do not ask me!
+
+About Thunderbolt function 
+Suppose P7xxDM2/DM3 can't recognize the SSD of Thunderbolt interface after brushing into version 1.07.24, you can change the Thunderbolt(TM) Enumeration Mode from Legacy to Native in BIOS.
+
+About RAID 
+BIOS defaults to AHCI mode, if you have configured RAID in the past, please change it back after flashing the BIOS, otherwise you may not be able to boot up the computer. 
+Note that the RAID in the new version of BIOS has been changed to Intel RST Premium.
+
+About EC Brush 
+The ECWinFlash provided by Blue Sky does not allow to brush EC across Project Name, but it is allowed under DOS. 
+I modified ECWinFlash to make it possible to brush EC across Project Name under Windows. 
+After testing, the EC of the following groups of models is common within the group. After testing, the following groups of models EC is common within the group, do not cross-group brush EC (P7xx do not brush P870, DM23 do not brush TM): 
+① P870KM and P870TM 
+② P870DM2 and P870DM3 
+③ P7xxDM2 and P7xxDM3, regardless of whether it is a P75x or a P77x, the EC is not the same name but they can be brushed through 
+④ P7xxTM and P7xxTM1, regardless of whether it is a P75x or a P77x, the EC is not the same name but they can be brushed. Although the names are different, they are passable 
+P870TM and P870TM1 are originally the same EC 
+P870KM and P870KM1 are originally the same EC 
+The difference between the EC of P7xxTM and P7xxTM1 is that the whole power consumption wall is 230W or 330W, and the EC of P7xxTM is playing the game in version 1.05.03 and later versions. CPU is not RWD 
+The difference between the EC of P7xxDM2 and P7xxDM3 is whether the power wall is 230W or 330W 
+DM don't brush the EC of TM, the fan control will be disabled and it will cut off the power in a few minutes 
+The EC of other models is not common, don't brush it indiscriminately, it will not turn on the machine 
+I will provide the EC version that I think it works well for you to brush it in 
+Note that the default color of the RGB keyboard light is related to the EC. I don't know what color the EC I provided is, and I don't know how to change it. If you are afraid of the color change, don't brush it. 
+P7xxTM 1.05.03 version of EC has the setting that CPU will not be RWD when playing games (it's not bug, it's designed by BlueSky because 230W power supply consumes more power for graphics card and less power for CPU), so brushing the EC can make it RWD normally. But the RWD can not run full, can run to how much, this has nothing to do with the EC 
+and the BIOS set Power Limit 1 and Power Limit 2 related to the need for you to adjust their own, the BIOS is only the option to unlock, and did not unlock the power consumption, do not ask me, I do not teach this!

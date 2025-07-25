@@ -1,0 +1,40 @@
+This article is only for the nvflash tool provided here, the tool here, only support for Windows 64-bit operating system, does not support Windows PE 
+Before operating, please be sure to read this article carefully, do not operate blindly, if you do not see the instructions on the blind get out of the problem, that is, you deserve it, no one will be responsible for your recklessness 
+If there is a problem with the terminology in the instructions, please make good use of the search engine. If you have any questions about the terms in the instructions, use a search engine, or if you really can't understand them, give up, because the content here is not for you.
+
+Some knowledge about GOP: 
+Blue Sky's new BIOS is not compatible with the old version of GOP, if the GOP version is lower than 0x30006, it will not boot up. 
+Some high-resolution, high-refresh rate screens need a high enough version of GOP in order to work properly, or else there will be a splash screen, flicker, water ripples, etc. (Reason: the GOP contains DisplayPortFirmware). 
+Therefore, we need to update the GOP to the appropriate version. We have to update GOP to the right version, but due to the different space occupied by different versions of GOP, it is not possible to use nvflash to update GOP directly, so we can only modify the vBIOS file, replace the GOP in it and correct the address before brushing it into the 
+To update the GOP, you have to check the current vBIOS version first, and then back up the current vBIOS, then find the same version that I provided and brush it into it, and finally repeat the checking. Then find the same version that I provided, and finally check the GOP version again to make sure it is successfully flashed.
+
+Some knowledge about Blue Sky's OC vBIOS: 
+Blue Sky's GTX1000 series MXM graphics cards have a total of three versions of vBIOS, the first version is commonly known as the non-OC version, the second and third versions are OC versions, the GTX1060 and GTX1070 power consumption limits compared to the first version of the 10W increase in all three versions, the frequency is increased in turn. 
+Personally, I don't recommend that the non-OC version of the card to brush the OC version of the vBIOS, it may be a little bit difficult to brush the vBIOS. I personally don't recommend brushing the OC vBIOS for non-OC graphics cards, as it may be unstable and the performance increase is not particularly large 
+The GTX 1070 OC vBIOS with SLI support lowers the power limit by another 10W compared to the non-SLI version, which is in line with the non-OC version.
+
+Operation Preparation: 
+Copy the ¡°0-nvflash Tools¡± folder to the root directory of the C drive, and then enter the folder, do not change the name of the folder (in order to avoid long paths and paths in the presence of spaces caused by the failure of the command execution, you do it on the line). 
+All the following operations, such as pop-up dialog box of the user account control, please All the following operations, if there is a pop-up user account control dialog box, please select ¡°Yes¡±, do not use the mouse to click on the black command line window, if you accidentally click on it, press Enter to restore, do not press 
+The following operation will be temporarily disabled during the implementation of the graphics card driver, may cause the screen flicker, a short period of black screen, Windows zoom is not normal and other phenomena, do not panic, the operation will automatically recover, if not recovered, Windows will automatically recover, if not recovered, you should do so. If not, please manually start your NVIDIA graphics card in the device manager.
+
+How to check the current vBIOS version: 
+Enter the ¡°0-nvflash tool¡± folder, double-click ¡°0_CheckVersion.bat¡±, and then observe the screen output results, focus on the line Version, observe the colon to the right of the corresponding version number. Observe the version number on the right side of the colon, which is the current vBIOS version.
+
+How to check the current GOP version: 
+Go to the ¡°0-nvflash tool¡± folder, double-click ¡°0_Check_Version.bat¡±, then observe the screen output, focus on the UEFI Version line, and observe the version number to the right of the colon. Focus on the UEFI Version line, and observe the version number to the right of the colon, which is the current GOP version.
+
+How to backup the current vBIOS: 
+Enter the ¡°0-nvflash tool¡± folder, double click ¡°1_Backup.bat¡±, when prompted with ¡°Y/N¡± please When prompted ¡°Y/N¡±, please continue to input ¡°Y Enter¡±, in the case of installing only one graphics card, the error message ¡°Invalid display adapter index specified¡± is normal, meaning to remind you that there is no second graphics card, don't panic. If you install only one graphics card, the error ¡°Invalid display adapter index specified¡± is normal, it means you are reminded that there is no second graphics card, don't panic. 
+will get ¡°backup_master.rom¡± which is the VBIOS backup file for the main graphics card, and ¡°backup_slave.rom¡± which is the VBIOS backup file for the secondary graphics card (if you don't install the second graphics card, there will be no backup file). ¡°backup_slave.rom¡± is the VBIOS backup file of the secondary graphics card (if you don't install the second graphics card, there will be no such file)
+
+How to flash vBIOS: 
+Enter the ¡°0-nvflash tool¡± folder, rename the VBIOS file to ¡°vbios.rom¡± (pay attention to the extension, don't change it to vbios.rom.rom) and put it into this folder. and put it into this folder, make sure ¡°nvflash.exe¡± and ¡°vbios.rom¡± are in the same path 
+Double click ¡°2_flash.bat¡±, prompt ¡°Y/N¡±. Double click ¡°2_flush.bat¡±, when prompted ¡°Y/N¡±, please continue to input ¡°Y Enter¡±, at this time, vbios.rom will be flashed into both the primary and secondary cards, if you do not have a second graphics card installed, of course, it will only be flashed into a graphics card 
+In the case of installing only one graphics card, the following message appears Invalid display adapter index specified¡° error is normal, it means to remind you that there is no second graphics card, don't panic 
+prompts ¡±Firmware image PCI Subsystem ID does not match adapter PCI Subsystem ID". The prompt ¡°Firmware image PCI Subsystem ID does not match adapter PCI Subsystem ID¡± is completely normal, because the Blue Sky model of the PCI Subsystem ID is not stored in the vBIOS, but by the BIOS control, this prompt can be ignored!
+
+Note on vBIOS file:
+1. P870 Dual SIM card model will lose the SLI function if you brush in the wrong VBIOS, please brush in the corresponding VBIOS.
+2. All VBIOS can be flashed directly by programmer, it has nothing to do with extension, file name and file size.
+3.The vBIOS files here are all unmodified official original version, only updated GOP processing, and the GOP is also the official original version.

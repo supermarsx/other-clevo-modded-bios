@@ -1,0 +1,17 @@
+The following is only for these models with the BIOS I provided:
+
+1. Blue Sky KP and TP mold HDMI interface and away from HDMI DP interface is connected to the GTX1060 solo display, the internal screen eDP is connected to the Intel core display, 
+This model with no core display CPU, the internal screen without display, but can be used through HDMI and away from the HDMI DP external monitor, 
+You can also external driver board and then connected to the eDP to light the internal screen, You can also external driver board and then connected to the eDP to light the internal screen. But I think the loss is not worth the gain.
+
+2. Blue Sky P series molds, the internal screen and HDMI/DP interfaces are connected to the MXM display, and the motherboard does not have the power supply of the nuclear display 
+these models with a nuclear CPU and no nuclear CPU is the same, there is no difference, the nuclear display will never be able to use!
+
+3. Blue Sky W series and N650DU molds, whether external or internal screen is connected to the Intel core display, if you use a CPU without a core display, 
+then you will lose the display function, I'm not sure if you can power on, but even if you can power on, but also can not be used like a normal computer, 
+If you just want to use as a soft router / NAS or something like that, then you can try, I have not tried, and I extremely do not recommend this approach If you use a non-core display CPU with a core display, there is no difference. Recommended 
+If you want to use a display with a CPU that has no core graphics, you can try to connect an external graphics card from the PCIE port (if available, e.g. PCIE 1X for M2 2230 or PCIE 4X for M2 2280), 
+and then connect a monitor from the external graphics card or a driver board and then connect the internal screen, which I haven't tried, and which I don't recommend!
+
+4. MSI full series, the power supply of the nuclear display is complete, but the S5 and S6 do not have the function of nuclear display output, that is, the nuclear display can only do auxiliary computing, can not output the screen, 
+I think that enabling the nuclear display is just a futile increase in power consumption, you can treat it as a blue sky P system, as it does not have a nuclear display good!

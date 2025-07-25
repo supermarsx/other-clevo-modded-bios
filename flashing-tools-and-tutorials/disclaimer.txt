@@ -1,0 +1,11 @@
+Disclaimer: 
+Flashing BIOS is risky, improper operation may cause serious problems such as failure to boot.
+Changing CPU is risky, improper operation may cause permanent hardware damage that cannot be repaired.
+BIOS is not 100% compatible with all computers, there is a possibility that you will not be able to boot your computer after flashing, so it is not recommended to try it without a programmer.
+Please read the tutorials carefully and at your own risk, I and the posters and forums do not take any responsibility for the failure of the BIOS flashing and dismantling.
+There is a risk of losing system activation and serial number when flashing a modified BIOS, so please think twice before doing so.
+There is a very small chance that after flashing the BIOS in normal operation, the system will not boot up, but if you use a programmer to re-flash the same file, the system will be fine, which is a normal phenomenon.
+I don't own the copyright of the BIOS and the software in it, please use it legally for research and study purposes.
+If you have fixed some undiscovered bugs based on this BIOS and suggested improvements, please continue to publicize and share the results of your work.
+I hereby disclaim any warranty for the use of the BIOS, and I do not guarantee the suitability of the BIOS for any user, nor do I guarantee that it will be trouble-free; nor do I assume any responsibility for any theoretical or actual damages suffered by any user using the BIOS.
+By using this BIOS, you accept this agreement by default.

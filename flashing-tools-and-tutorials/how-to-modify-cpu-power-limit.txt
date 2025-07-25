@@ -1,0 +1,51 @@
+CPU performance limitations are mainly three, current, power consumption, temperature
+
+We don't touch the temperature limit.
+
+When modifying in BIOS 
+All models except Blue Sky DM1, the current limit is set at 
+Advanced 
+Power & Performance 
+CPU - Power Management Control 
+CPU VR Settings 
+Core/IA VR Settings 
+Set CPU VR Custom Setting to Enabled, if it is Enabled, you don't need to move it. Set the CPU VR Custom Setting to Enabled, if it is originally Enabled, you don't need to move 
+VR Current Limit is the current limit, the unit is 1/4A, the maximum value is 255.75A, that is, fill in 1023.
+
+DM1 is at 
+Advanced 
+OverClocking Performance Menu (if I remember correctly it's the second one, if you can't find it then try another one) 
+CPU VR Settings 
+Core/IA VR Settings 
+The rest of the modifications are the same as above.
+
+Power Limits are divided into two sections, the first one is located at 
+Advanced 
+Power & Performance 
+CPU - Power Management Control 
+Config TDP Configurations 
+Custom Settings Nominal 
+
+ Power Limit 1 and Power Limit 2 PL1 are for long time running. Limit 2 
+PL1 is the power limit for long time operation, PL2 is for short time, here the unit is mW 
+For example, if you need to change it to 65W, fill in 65000 here.
+
+The second location is at 
+Advanced 
+Power & Performance 
+CPU - Power Management Control 
+Config TDP Configurations 
+Custom Settings Nominal 
+
+ Power Limit 1 and Power Limit 2 below.
+View/Configure Turbo Options 
+Change Power Limit 1 Override and Power Limit 2 Override to Enabled first, so that PL1 and PL2 can take effect later. 
+The unit is the same as above.
+
+For DM1, there is only one location, at 
+Advanced 
+CPU Configuration 
+Change Power Limit 1 Override and Power Limit 2 Override to Enabled first, so that PL1 and PL2 can take effect later. 
+The unit is the same as above.
+
+The unit is the same as above. The beginning of Platform is not CPU power consumption, so there is no need to modify it.
