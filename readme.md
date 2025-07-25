@@ -11,12 +11,12 @@ Clevo modded/unlocked BIOS mirror collection by dsanke
 - ⚠️ **You're on your own**.
 - ⚠️ Make sure you're flashing the **right chip**! Don't flash other controllers and stuff..
 - ⚠️ Make sure the **clip** is in the **right position**! Position 1 is usually marked with a small ball.
-- ⚠️ You might need to pin mod the processor (when using 8th/9th gen processors on 6th/7th gen boards). [Needed on one to work by my tests] [Reference Link](https://www.techpowerup.com/forums/threads/adventure-running-8-9th-gen-coffee-lake-cpus-on-z170-motherboard-asus-maximus-viii-ranger.284375/) [Archive.ph mirror link](https://archive.ph/MCi5O)
+- ⚠️ You might need to pin mod the processor (when using 8th/9th gen processors on 6th/7th gen boards). [Needed on one to work by my tests] [Reference Link](https://www.techpowerup.com/forums/threads/adventure-running-8-9th-gen-coffee-lake-cpus-on-z170-motherboard-asus-maximus-viii-ranger.284375/) / [[Archive.ph mirror link]](https://archive.ph/MCi5O)
 - ⚠️ You might be able to upgrade from GTX 10 series to RTX 20 series based on this thread. [Reference Link](https://linustechtips.com/topic/1610000-chipped-corner-on-mobile-rtx-2080-mxm/), citing `Danmaq`, "i installed a Dsanke bios mod and now the GPU seems to work. it managed to get into windows but i still have to do more testing until i get the proper cooler."
 - 🤓 You **SHOULD read** the whole readme and some threads before proceeding with anything.
 - 🪞 Not the maker, just a mirror.
 
-[[Download this repository]](https://codeload.github.com/supermarsx/other-clevo-modded-bios/zip/refs/heads/main)
+[[Download this repository]](https://codeload.github.com/supermarsx/other-clevo-modded-bios/zip/refs/heads/main) (This downloads everything)
 
 
 [**[Go to flash guide using Raspberry Pi and clip >>]**](#flash-guide-using-raspberry-pi-and-clip)
