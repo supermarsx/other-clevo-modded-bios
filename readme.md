@@ -27,12 +27,21 @@ Clevo modded/unlocked BIOS mirror collection by dsanke
 
 ## Supported Clevo models
 
+### BIOS
+
 - N9xKP [[0506]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/N9xKP-0506.7z) [[0712]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/N9xKP-0712.7z)
 - N9xTP [[0506]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/N9xTP-0506.7z) [[0712]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/N9xTP-0712.7z) 
 - P7xxDMx [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P7xxDMx-0511-9900KS.7z) [[0729-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P7xxDMx-0729-9900KS.7z) [[0729-TBT-Legacy]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P7xxDMx-0729-TBT-Legacy.7z) 
 - P7xxTM1 [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P7xxTM1-0511-9900KS.7z) [[0729-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P7xxTM1-0729-9900KS.7z)
 - P870KM [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P870KM-0511-9900KS.7z) [[0716-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P870KM-0716-9900KS.7z)
 - P870TM [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P870TM-0511-9900KS.7z) [[0716-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P870TM-0716-9900KS.7z)
+
+### Service Manuals
+
+- P75XDM [[service-manual-p75xdm]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/service-manual/service-manual-p75xdm.pdf)
+- P775DM2-G [[service-manual-p775dm2g]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/service-manual/service-manual-p775dm2g.pdf)
+- P775TM [[service-manual-p775tm]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/service-manual/service-manual-p775tm.pdf)
+- P870KM [[service-manual-p870km]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/service-manual/service-manual-p870km.pdf)
 
 ## Things you might want to read before proceeding
 
