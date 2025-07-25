@@ -1,4 +1,5 @@
 # other-clevo-modded-bios
+
 Clevo modded/unlocked BIOS mirror collection by dsanke
 
 - ✅ Use up to 9900KS processor.
@@ -11,6 +12,7 @@ Clevo modded/unlocked BIOS mirror collection by dsanke
 - ⚠️ Make sure you're flashing the **right chip**! Don't flash other controllers and stuff..
 - ⚠️ Make sure the **clip** is in the **right position**! Position 1 is usually marked with a small ball.
 - ⚠️ You might need to pin mod the processor (when using 8th/9th gen processors on 6th/7th gen boards). [Needed on one to work by my tests] [Reference Link](https://www.techpowerup.com/forums/threads/adventure-running-8-9th-gen-coffee-lake-cpus-on-z170-motherboard-asus-maximus-viii-ranger.284375/)
+- 🤓 You **SHOULD read** the whole readme and some threads before proceeding with anything.
 - 🪞 Not the maker, just a mirror.
 
 [[Download this repository]](https://codeload.github.com/supermarsx/other-clevo-modded-bios/zip/refs/heads/main)
