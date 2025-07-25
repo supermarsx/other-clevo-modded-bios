@@ -1,6 +1,6 @@
 # other-clevo-modded-bios
 
-Clevo modded/unlocked BIOS mirror collection by dsanke
+Clevo BIOS fully unlocked/modded collection by dsanke
 
 - ✅ Use up to 9900KS processor.
 - ✅ BIOS fully unlocked.
