@@ -19,8 +19,9 @@ Clevo BIOS fully unlocked/modded collection by dsanke
 - ⚠️ A lot of files were copied and dirty translated from Chinese to English, translations won't be great.
 - 🪞 Not the maker, just a mirror.
 
-[[Download this repository]](https://codeload.github.com/supermarsx/other-clevo-modded-bios/zip/refs/heads/main) (This option downloads everything)
+[[Download this repository]](https://codeload.github.com/supermarsx/other-clevo-modded-bios/zip/refs/heads/main) (This option downloads everything, only needed if you want absolutely everything)
 
+[[Untouched original archive in Chinese]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/other/Clevo_Z170_Z270_H270-untouched.7z) (might be needed if you want to retry doing a better translation otherwise won't be needed)
 
 [**[Go to flash guide using Raspberry Pi and clip >>]**](#flash-guide-using-raspberry-pi-and-clip)
 
