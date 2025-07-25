@@ -26,7 +26,7 @@ Clevo BIOS fully unlocked/modded collection by dsanke
 
 [**[Go to flash guide using USB drive >>]**](#flash-guide-using-usb-drive)
 
-## Supported Clevo models
+## Supported Clevo models and links
 
 ### BIOS
 
@@ -52,7 +52,7 @@ Clevo BIOS fully unlocked/modded collection by dsanke
 - P775TM [[service-manual-p775tm]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/service-manual/service-manual-p775tm.pdf)
 - P870KM [[service-manual-p870km]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/service-manual/service-manual-p870km.pdf)
 
-## vBIOS
+### vBIOS
 
 Includes vBIOS for GTX 1060, 1070 and 1080, with and without G-SYNC, with and without SLI, with and without OC
 
