@@ -38,9 +38,9 @@ Clevo modded/unlocked BIOS mirror collection by dsanke
 
 ### Thread on notebooktalk about flashing
 
-Original link: [https://notebooktalk.net/topic/2302-help-w-flashing-dsanke-bios-for-p775-dm3/](https://notebooktalk.net/topic/2302-help-w-flashing-dsanke-bios-for-p775-dm3/)
+`Original link:` [https://notebooktalk.net/topic/2302-help-w-flashing-dsanke-bios-for-p775-dm3/](https://notebooktalk.net/topic/2302-help-w-flashing-dsanke-bios-for-p775-dm3/)
 
-Archive.ph mirror link: [https://archive.ph/QQeMq](https://archive.ph/QQeMq)
+`Archive.ph mirror link:` [https://archive.ph/QQeMq](https://archive.ph/QQeMq)
 
 Thread citation, `taiyang` wrote: 
 
@@ -61,15 +61,15 @@ Google translated original post: [smx-dsanke-guide-gt.md](https://github.com/sup
 
 ### Reddit thread about the 9900ks
 
-Original post link: [https://www.reddit.com/r/Clevo/comments/10lefie/trying_to_upgrade_p775tm1g_to_9900ks_but_cant_boot/](https://www.reddit.com/r/Clevo/comments/10lefie/trying_to_upgrade_p775tm1g_to_9900ks_but_cant_boot/)
+`Original link:` [https://www.reddit.com/r/Clevo/comments/10lefie/trying_to_upgrade_p775tm1g_to_9900ks_but_cant_boot/](https://www.reddit.com/r/Clevo/comments/10lefie/trying_to_upgrade_p775tm1g_to_9900ks_but_cant_boot/)
 
-Archive.ph mirror link: [https://archive.ph/X0n3E](https://archive.ph/X0n3E)
+`Archive.ph mirror link:` [https://archive.ph/X0n3E](https://archive.ph/X0n3E)
 
 ### Linus Tech Tips thread about upgrading from GTX 10 series to RTX 20 series
 
-Original post link: [https://linustechtips.com/topic/1610000-chipped-corner-on-mobile-rtx-2080-mxm/](https://linustechtips.com/topic/1610000-chipped-corner-on-mobile-rtx-2080-mxm/)
+`Original link:` [https://linustechtips.com/topic/1610000-chipped-corner-on-mobile-rtx-2080-mxm/](https://linustechtips.com/topic/1610000-chipped-corner-on-mobile-rtx-2080-mxm/)
 
-Archive.ph mirror link: [https://archive.ph/xVQMj](https://archive.ph/xVQMj)
+`Archive.ph mirror link:` [https://archive.ph/xVQMj](https://archive.ph/xVQMj)
 
 ### Older P751DM2 Stock BIOS Obsidian-PC branded
 
@@ -77,9 +77,9 @@ Archive.ph mirror link: [https://archive.ph/xVQMj](https://archive.ph/xVQMj)
 
 ### Ukranian Overclockers thread about flashing
 
-Original post link: [https://forum.overclockers.ua/viewtopic.php?t=60195&start=3880](https://forum.overclockers.ua/viewtopic.php?t=60195&start=3880)
+`Original link:` [https://forum.overclockers.ua/viewtopic.php?t=60195&start=3880](https://forum.overclockers.ua/viewtopic.php?t=60195&start=3880)
 
-Archive.ph mirror link: [https://archive.ph/bNPMY](https://archive.ph/bNPMY)
+`Archive.ph mirror link:` [https://archive.ph/bNPMY](https://archive.ph/bNPMY)
 
 ## Flash guide using Raspberry Pi and clip
 
@@ -146,7 +146,9 @@ Software:
 
 ```Didn't use this guide, just providing for reference. Thanks to reddit user LenoVW_Nut```
 
-Original reference: https://www.reddit.com/r/Clevo/comments/1ew3iqa/clevo_p_series_dsanke_mod_bios_no_programmer/
+`Original link:` [https://www.reddit.com/r/Clevo/comments/1ew3iqa/clevo_p_series_dsanke_mod_bios_no_programmer/](https://www.reddit.com/r/Clevo/comments/1ew3iqa/clevo_p_series_dsanke_mod_bios_no_programmer/)
+
+`Archive.ph mirror link:` [https://archive.ph/kUPhX](https://archive.ph/kUPhX)
 
 ### Instructions
 Flash the USB method as listed below: 
