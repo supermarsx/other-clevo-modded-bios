@@ -73,7 +73,7 @@ Google translated original post: [smx-dsanke-guide-gt.md](https://github.com/sup
 
 ### Older P751DM2 Stock BIOS Obsidian-PC branded
 
-[https://github.com/supermarsx/other-p751dm2-bios-565352sio](https://github.com/supermarsx/other-p751dm2-bios-565352sio)
+`Repository link:` [https://github.com/supermarsx/other-p751dm2-bios-565352sio](https://github.com/supermarsx/other-p751dm2-bios-565352sio)
 
 ### Ukranian Overclockers thread about flashing
 
@@ -84,6 +84,8 @@ Google translated original post: [smx-dsanke-guide-gt.md](https://github.com/sup
 ## Flash guide using Raspberry Pi and clip
 
 ```Note: This is a rectified generated guide for reference```
+
+## Manuals
 
 ### Tools and Materials Required
 
