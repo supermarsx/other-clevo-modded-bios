@@ -85,8 +85,6 @@ Google translated original post: [smx-dsanke-guide-gt.md](https://github.com/sup
 
 ```Note: This is a rectified generated guide for reference```
 
-## Manuals
-
 ### Tools and Materials Required
 
 Hardware:
