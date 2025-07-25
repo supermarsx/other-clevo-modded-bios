@@ -79,6 +79,11 @@ Original post link: [https://forum.overclockers.ua/viewtopic.php?t=60195&start=3
 
 Archive.ph mirror link: [https://archive.ph/bNPMY](https://archive.ph/bNPMY)
 
+### TechPowerUp Intel 6th gen to 7-8th gen upgrade thread on pin modding
+
+Original post link: [https://www.techpowerup.com/forums/threads/adventure-running-8-9th-gen-coffee-lake-cpus-on-z170-motherboard-asus-maximus-viii-ranger.284375/](https://www.techpowerup.com/forums/threads/adventure-running-8-9th-gen-coffee-lake-cpus-on-z170-motherboard-asus-maximus-viii-ranger.284375/)
+
+Archive.ph mirror link: [https://archive.ph/MCi5O](https://archive.ph/MCi5O)
 
 ## Flash guide using Raspberry Pi and clip
 
