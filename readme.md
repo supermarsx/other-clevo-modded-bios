@@ -75,7 +75,9 @@ Archive.ph mirror link: [https://archive.ph/xVQMj](https://archive.ph/xVQMj)
 
 ### Ukranian Overclockers thread about flashing
 
-[https://forum.overclockers.ua/viewtopic.php?t=60195&start=3880](https://forum.overclockers.ua/viewtopic.php?t=60195&start=3880)
+Original post link: [https://forum.overclockers.ua/viewtopic.php?t=60195&start=3880](https://forum.overclockers.ua/viewtopic.php?t=60195&start=3880)
+
+Archive.ph mirror link: [https://archive.ph/bNPMY](https://archive.ph/bNPMY)
 
 
 ## Flash guide using Raspberry Pi and clip
@@ -143,7 +145,9 @@ Software:
 
 ```Didn't use this guide, just providing for reference. Thanks to reddit user LenoVW_Nut```
 
-Original reference: https://www.reddit.com/r/Clevo/comments/1ew3iqa/clevo_p_series_dsanke_mod_bios_no_programmer/
+Original reference: [https://www.reddit.com/r/Clevo/comments/1ew3iqa/clevo_p_series_dsanke_mod_bios_no_programmer/](https://www.reddit.com/r/Clevo/comments/1ew3iqa/clevo_p_series_dsanke_mod_bios_no_programmer/)
+
+Archive.ph mirror link: [https://archive.ph/kUPhX](https://archive.ph/kUPhX)
 
 ### Instructions
 Flash the USB method as listed below: 
