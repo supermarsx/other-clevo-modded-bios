@@ -27,12 +27,12 @@ Clevo modded/unlocked BIOS mirror collection by dsanke
 
 ## Supported Clevo models
 
-- N9xKP [[0506]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/N9xKP-0506.7z) [[0712]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/N9xKP-0712.7z)
-- N9xTP [[0506]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/N9xTP-0506.7z) [[0712]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/N9xTP-0712.7z) 
-- P7xxDMx [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P7xxDMx-0511-9900KS.7z) [[0729-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P7xxDMx-0729-9900KS.7z) [[0729-TBT-Legacy]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P7xxDMx-0729-TBT-Legacy.7z) 
-- P7xxTM1 [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P7xxTM1-0511-9900KS.7z) [[0729-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P7xxTM1-0729-9900KS.7z)
-- P870KM [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P870KM-0511-9900KS.7z) [[0716-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P870KM-0716-9900KS.7z)
-- P870TM [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P870TM-0511-9900KS.7z) [[0716-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/P870TM-0716-9900KS.7z)
+- N9xKP [[0506]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/N9xKP-0506.7z) [[0712]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/N9xKP-0712.7z)
+- N9xTP [[0506]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/N9xTP-0506.7z) [[0712]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/N9xTP-0712.7z) 
+- P7xxDMx [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P7xxDMx-0511-9900KS.7z) [[0729-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P7xxDMx-0729-9900KS.7z) [[0729-TBT-Legacy]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P7xxDMx-0729-TBT-Legacy.7z) 
+- P7xxTM1 [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P7xxTM1-0511-9900KS.7z) [[0729-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P7xxTM1-0729-9900KS.7z)
+- P870KM [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P870KM-0511-9900KS.7z) [[0716-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P870KM-0716-9900KS.7z)
+- P870TM [[0511-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P870TM-0511-9900KS.7z) [[0716-9900KS]](https://raw.githubusercontent.com/supermarsx/other-clevo-modded-bios/main/bios/P870TM-0716-9900KS.7z)
 
 ## Things you might want to read before proceeding
 
